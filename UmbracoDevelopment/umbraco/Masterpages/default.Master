@@ -1,0 +1,30 @@
+<%@ Master Language="C#" AutoEventWireup="True" CodeBehind="Default.master.cs" Inherits="Umbraco.Web.UI.Umbraco.Masterpages.Default" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><umbraco:Item ID="htmlTitle" Field="title" runat="server" /></title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="span4">
+                lhm
+            </div>
+            <div class="span8">
+                <legend>
+                    <umbraco:Item ID="Item1" Field="title" runat="server" />
+                </legend>
+                    <umbraco:Item ID="pageTitle" Field="intro" runat="server" />
+                
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderDefault" runat="server" />
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>[COG]Navigation.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>[COG]Navigation.xslt</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Cogworks - Flexible Navigation</name>
+      <version>1.0</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://our.umbraco.org/projects/website-utilities/cogworks-flexible-navigation</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Tim Saunders</name>
+      <website>http://www.thecogworks.co.uk</website>
+    </author>
+    <readme><![CDATA[This is the Umbraco 4.5+ version.
+
+it contains support for the new 4.5 schema.]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets>
+    <Stylesheet>
+      <Name>[COG]Navigation</Name>
+      <FileName>[COG]Navigation</FileName>
+      <Content><![CDATA[/*HORIZONTAL NAV*/
+.horizontal
+{
+    white-space: nowrap;
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 0px;
+    margin: 0px;
+ }
+
+.horizontal li
+{
+    font-size: 1em;
+    display: inline;
+    list-style-type: none;
+    line-height:1.4em;
+} 
+
+.horizontal a
+{
+	padding: 2px 4px 4px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em; 
+}
+
+.horizontal a
+{
+    color: #85898A;
+    text-decoration: none;
+}
+
+.horizontal a:hover
+{
+    color: #4DB039;
+    text-decoration: none;
+}
+
+.horizontal .selected {color:#4DB039;}
+.horizontal .selected.branch {color:#4DB039;}
+.horizontal .branch {color:purple;}
+
+/*VERTICAL NAV*/
+.vertical
+{
+    width:300px;
+    line-height:1.4em;
+    padding-bottom:20px;
+    margin:0;
+    padding:0px;
+    list-style-type:none;
+    text-align:left;
+}
+
+.vertical ul
+{
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    list-style-type:none;
+}
+
+.vertical li
+{
+    font-size: 1em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: #333333;
+}
+
+.vertical li a
+{
+    display:block;
+    padding:3px 3px 3px 5px;
+    text-decoration:none;
+    border-left:5px solid #4DB0ff;
+    background-color:#F1F1F1;
+    border-bottom:2px solid #fff;
+}
+
+.vertical li a:hover
+{
+    border-left:5px solid #4dB0aa;
+    color: #4DB0ff;
+}
+
+.vertical li a.branch
+{
+    border-left:5px solid #ccc;
+    color: #777;
+}
+
+.vertical li a.branch:hover
+{
+    border-left:5px solid #4dB0aa;
+    color: #4DB0ff;
+}
+
+.vertical li a.selected
+{
+    border-left:5px solid #4dB0aa;
+    color: #4DB0ff;
+}
+
+.vertical.lv1 li a{padding:3px 3px 3px 5px;}
+.vertical .lv2 li a{padding:3px 3px 3px 25px;}
+.vertical .lv3 li a{padding:3px 3px 3px 50px;}
+.vertical .lv4 li a{padding:3px 3px 3px 75px;}
+
+
+
+
+]]></Content>
+    </Stylesheet>
+  </Stylesheets>
+  <Macros>
+    <macro>
+      <name>[COG]Navigation</name>
+      <alias>[COG]Navigation</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>[COG]Navigation.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>
+      </scriptingFile>
+      <properties>
+        <property name="Start Depth" alias="startingLevel" show="True" propertyType="number" />
+        <property name="Recursive" alias="recurse" show="True" propertyType="bool" />
+        <property name="Select Branches" alias="selectBranches" show="True" propertyType="bool" />
+        <property name="Max Menu Depth" alias="maxMenuDepth" show="True" propertyType="number" />
+        <property name="UL Base Class" alias="ulBaseClass" show="True" propertyType="text" />
+        <property name="Branch Class" alias="branchClass" show="True" propertyType="text" />
+        <property name="Selected Class" alias="selectedClass" show="True" propertyType="text" />
+        <property name="Selected Page" alias="forceNode" show="True" propertyType="contentPicker" />
+        <property name="Walk Children" alias="expandChildren" show="True" propertyType="bool" />
+        <property name="Force Home" alias="forceHome" show="True" propertyType="bool" />
+        <property name="Hide protected pages" alias="securityTrimming" show="True" propertyType="bool" />
+      </properties>
+    </macro>
+  </Macros>
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

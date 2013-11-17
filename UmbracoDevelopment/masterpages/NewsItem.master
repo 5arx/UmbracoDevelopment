@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="head" runat="server">
+</asp:content>
+
+<asp:content ContentPlaceHolderId="ContentPlaceHolder1" runat="server">
+	<p class="lead"><umbraco:Item field="title" runat="server" /></p>
+	<p><small>Published: <umbraco:Item field="newsDate" formatAsDateWithTime="true" formatAsDateWithTimeSeparator="" runat="server" /></small></p>
+	<p><em><umbraco:Item field="summary" runat="server" /></em></p>
+
+	<umbraco:image runat="server" field="thumbnail" />
+	<p><em><umbraco:Item field="story" runat="server" /></em></p>
+	
+	<hr/>
+	<p><small>Last updated: <umbraco:Item field="updateDate" formatAsDate="true" runat="server" /></small></p>
+</asp:content>

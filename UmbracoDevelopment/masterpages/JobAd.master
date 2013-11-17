@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+	<p>Title:<umbraco:Item field="jobTitle" runat="server" /></p>
+	<p>Directorate:<umbraco:Item field="directorate" runat="server" /></p>
+	<p>Closing Date:<umbraco:Item field="closingDate" runat="server" /></p>
+	<p>Job Description:<umbraco:Item field="jobDescription" runat="server" /></p>
+</asp:Content>

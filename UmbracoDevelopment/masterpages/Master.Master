@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="UmbracoDevelopment.masterpages.Master" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Indra's Umbraco Site:: <umbraco:Item field="title" runat="server" /></title>
+	<asp:ContentPlaceHolder ID="head" runat="server" />
+<link href="//netdna.bootstrapcdn.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+		<div class="container" style='min-height:700px;'>
+            <div class="row">
+                <div class="span3">
+                    <umbraco:Macro startingLevel="0" recurse="1" selectBranches="1" maxMenuDepth="4" ulBaseClass="subnav" branchClass="" selectedClass="currentli" forceNode="" expandChildren="1" forceHome="0" securityTrimming="0" Alias="[COG]Navigation" runat="server"></umbraco:Macro>
+                </div>
+                <div class="span9">
+					<div class="row">
+                    	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+					</div>
+                </div>
+            </div>
+            <footer>
+            	<small>Page ID:<umbraco:Item ID="Item1" field="pageID" runat="server" /></small>
+            </footer>
+        </div>
+    </form>
+    <script type="text/javascript" src="../scripts/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="../scripts/jquery-ui-1.10.3.min.js"></script>
+    <script type="text/javascript" src="../scripts/default.js"></script>
+</body>
+</html>

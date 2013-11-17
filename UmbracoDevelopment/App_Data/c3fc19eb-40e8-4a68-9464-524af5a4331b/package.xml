@@ -1,0 +1,3136 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>breadcrumbNav.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>breadcrumbNav.xslt</orgName>
+    </file>
+    <file>
+      <guid>calendarBackLink.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>calendarBackLink.xslt</orgName>
+    </file>
+    <file>
+      <guid>eventArea.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>eventArea.xslt</orgName>
+    </file>
+    <file>
+      <guid>eventShowInfo.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>eventShowInfo.xslt</orgName>
+    </file>
+    <file>
+      <guid>eventsIcalExportAll.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>eventsIcalExportAll.xslt</orgName>
+    </file>
+    <file>
+      <guid>eventsIcalExportAllLink.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>eventsIcalExportAllLink.xslt</orgName>
+    </file>
+    <file>
+      <guid>eventsIcalExportSingle.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>eventsIcalExportSingle.xslt</orgName>
+    </file>
+    <file>
+      <guid>eventsIcalExportSingleLink.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>eventsIcalExportSingleLink.xslt</orgName>
+    </file>
+    <file>
+      <guid>newsImage.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>newsImage.xslt</orgName>
+    </file>
+    <file>
+      <guid>newsList.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>newsList.xslt</orgName>
+    </file>
+    <file>
+      <guid>newsListHomePage.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>newsListHomePage.xslt</orgName>
+    </file>
+    <file>
+      <guid>SubNav.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>SubNav.xslt</orgName>
+    </file>
+    <file>
+      <guid>topNavigation.xslt</guid>
+      <orgPath>/xslt</orgPath>
+      <orgName>topNavigation.xslt</orgName>
+    </file>
+    <file>
+      <guid>animage.gif</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>animage.gif</orgName>
+    </file>
+    <file>
+      <guid>arrow_left.gif</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>arrow_left.gif</orgName>
+    </file>
+    <file>
+      <guid>arrow_right.gif</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>arrow_right.gif</orgName>
+    </file>
+    <file>
+      <guid>calendar-day.png</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>calendar-day.png</orgName>
+    </file>
+    <file>
+      <guid>st-georges400300.gif</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>st-georges400300.gif</orgName>
+    </file>
+    <file>
+      <guid>umbusiness.js</guid>
+      <orgPath>/scripts</orgPath>
+      <orgName>umbusiness.js</orgName>
+    </file>
+    <file>
+      <guid>38e08f5e-c605-492f-b4f6-887bd7085d8d_animage.gif</guid>
+      <orgPath>/media/122</orgPath>
+      <orgName>animage.gif</orgName>
+    </file>
+    <file>
+      <guid>animage_thumb.jpg</guid>
+      <orgPath>/media/122</orgPath>
+      <orgName>animage_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>34f7965d-2827-4885-a7ab-a4a3fc1d4a95_calendar-day.png</guid>
+      <orgPath>/umbraco/images/umbraco</orgPath>
+      <orgName>calendar-day.png</orgName>
+    </file>
+    <file>
+      <guid>calendar-month.png</guid>
+      <orgPath>/umbraco/images/umbraco</orgPath>
+      <orgName>calendar-month.png</orgName>
+    </file>
+    <file>
+      <guid>home.gif</guid>
+      <orgPath>/umbraco/images/umbraco</orgPath>
+      <orgName>home.gif</orgName>
+    </file>
+    <file>
+      <guid>newspaper.gif</guid>
+      <orgPath>/umbraco/images/umbraco</orgPath>
+      <orgName>newspaper.gif</orgName>
+    </file>
+    <file>
+      <guid>newspapers.gif</guid>
+      <orgPath>/umbraco/images/umbraco</orgPath>
+      <orgName>newspapers.gif</orgName>
+    </file>
+    <file>
+      <guid>page.gif</guid>
+      <orgPath>/umbraco/images/umbraco</orgPath>
+      <orgName>page.gif</orgName>
+    </file>
+    <file>
+      <guid>jquery-1.4.2.min.js</guid>
+      <orgPath>/scripts</orgPath>
+      <orgName>jquery-1.4.2.min.js</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Business Website Starter Pack</name>
+      <version>1.4</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://www.geckonewmedia.com</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Dan Drayne</name>
+      <website>http://www.geckonewmedia.com/blog</website>
+    </author>
+    <readme><![CDATA[A quick-start business website
+]]></readme>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <node id="1051" version="305919a0-0d26-4071-b047-d8e8a66ac5b9" parentID="-1" level="1" writerID="0" creatorID="0" nodeType="1043" template="1044" sortOrder="2" createDate="2009-11-19T13:48:49" updateDate="2010-06-16T10:38:20" nodeName="Home" urlName="home" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="Homepage" path="-1,1051">
+        <data alias="siteName">Website Name</data>
+        <data alias="siteContactNumber">555-12345</data>
+        <data alias="siteTagline">Just another umbraco website</data>
+        <data alias="siteMainAddress"><![CDATA[14a Company House, 
+Company Street,
+A Town, 
+A Country]]></data>
+        <data alias="siteEmailAddress" />
+        <data alias="pageContent"><![CDATA[
+<p><strong>Lorem Ipsum</strong> is simply dummy text of the
+printing and typesetting industry. Lorem Ipsum has been the
+industry's standard dummy text ever since the 1500s, when an
+unknown printer took a galley of type and scrambled it to make a
+type specimen book. It has survived not only five centuries, but
+also the leap into electronic typesetting, remaining essentially
+unchanged. It was popularised in the 1960s with the release of
+Letraset sheets containing Lorem Ipsum passages, and more recently
+with desktop publishing software like Aldus PageMaker including
+versions of Lorem Ipsum.</p>
+
+<p>It has survived not only five centuries, but also the leap into
+electronic typesetting, remaining essentially unchanged. It was
+popularised in the 1960s with the release of Letraset sheets
+containing Lorem Ipsum passages, and more recently with desktop
+publishing software like Aldus PageMaker including versions of
+Lorem Ipsum.</p>
+]]></data>
+        <data alias="homeNewsPage">1059</data>
+        <data alias="pageTitle">Home | Umb Business Starter Site</data>
+        <data alias="metaDescription"><![CDATA[This is the homepage of the Umb business starter site]]></data>
+        <data alias="metaKeywords"><![CDATA[]]></data>
+        <data alias="umbracoNaviHide">0</data>
+        <data alias="umbracoRedirect" />
+        <node id="1052" version="3ebdcc21-14a0-42a7-adde-d8faf9172bdf" parentID="1051" level="2" writerID="0" creatorID="0" nodeType="1047" template="1046" sortOrder="1" createDate="2009-11-19T13:49:31" updateDate="2010-06-16T10:38:20" nodeName="About Us" urlName="about-us" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="Textpage" path="-1,1051,1052">
+          <data alias="pageHeading">About Us</data>
+          <data alias="pageContent"><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Vestibulum imperdiet dictum risus eget rhoncus. Phasellus interdum
+dignissim sem sed dapibus? Praesent posuere accumsan eleifend.
+Maecenas ut eros justo, vel pharetra elit. Morbi at tortor elit, eu
+tempor dolor. Nullam consectetur mollis metus eu sodales. Etiam
+eget arcu quis sapien sagittis laoreet fringilla non dui. Cras eu
+placerat libero. Donec dictum diam a est vulputate ornare. Duis non
+risus orci. Nullam metus nisi, semper nec vestibulum vulputate,
+luctus quis turpis. Ut eu lacus risus. Nullam sagittis, mi quis
+aliquet ornare, sem odio egestas augue, at commodo massa nunc sed
+lectus. Aenean interdum fermentum tortor, id egestas eros congue
+ac. Vestibulum massa elit, adipiscing non imperdiet ultrices,
+rhoncus quis nunc. Nunc molestie gravida interdum. Pellentesque
+dolor magna, imperdiet sed feugiat non, malesuada id purus. Nullam
+sem leo, blandit id tempus sit amet, ultrices eget neque. Curabitur
+malesuada, ipsum nec imperdiet pellentesque, sem tellus convallis
+urna, et malesuada orci magna vitae tellus. Donec viverra, nulla ut
+ultrices eleifend, neque metus pharetra felis, ut porta dui sapien
+a nisl.</p>
+
+<p>Praesent vulputate imperdiet viverra. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Pellentesque consequat molestie est! Ut eget lorem ut lorem
+adipiscing commodo vel bibendum tortor. Aliquam id metus velit.
+Vestibulum ipsum odio, faucibus non malesuada eget, mattis nec
+ante. Integer mollis, magna semper cursus blandit; sapien massa
+venenatis neque, sed adipiscing nisi ante sed tortor. In mi dui,
+adipiscing sed bibendum a, tempor a elit. Fusce consectetur iaculis
+odio adipiscing consectetur. Nam sed elit eu lacus scelerisque
+bibendum. Morbi rutrum porta scelerisque! Vestibulum ante ipsum
+primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Aenean suscipit nibh nec tortor malesuada commodo. Sed ornare, nunc
+in pharetra lacinia, nunc nulla convallis mauris; vulputate
+volutpat eros massa non nibh. Suspendisse potenti. Donec placerat
+malesuada nibh, at rutrum lectus dapibus eu? Etiam at neque vel
+diam malesuada tempor. Class aptent taciti sociosqu ad litora
+torquent per conubia nostra, per inceptos himenaeos.</p>
+]]></data>
+          <data alias="pageTitle">About Us</data>
+          <data alias="metaDescription"><![CDATA[A little about us]]></data>
+          <data alias="metaKeywords"><![CDATA[]]></data>
+          <data alias="umbracoNaviHide">0</data>
+          <data alias="umbracoRedirect" />
+          <node id="1073" version="4afdf72e-4db3-437d-a3ff-d4802a8dff08" parentID="1052" level="3" writerID="0" creatorID="0" nodeType="1047" template="1046" sortOrder="1" createDate="2009-11-20T15:50:02" updateDate="2010-06-16T10:38:20" nodeName="A subpage" urlName="a-subpage" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="Textpage" path="-1,1051,1052,1073">
+            <data alias="pageHeading">This is a subpage</data>
+            <data alias="pageContent"><![CDATA[
+<p><strong>Lorem Ipsum</strong> is simply dummy text of the
+printing and typesetting industry. Lorem Ipsum has been the
+industry's standard dummy text ever since the 1500s, when an
+unknown printer took a galley of type and scrambled it to make a
+type specimen book. It has survived not only five centuries, but
+also the leap into electronic typesetting, remaining essentially
+unchanged. It was popularised in the 1960s with the release of
+Letraset sheets containing Lorem Ipsum passages, and more recently
+with desktop publishing software like Aldus PageMaker including
+versions of Lorem Ipsum.</p>
+
+<p><strong>Lorem Ipsum</strong> is simply dummy text of the
+printing and typesetting industry. Lorem Ipsum has been the
+industry's standard dummy text ever since the 1500s, when an
+unknown printer took a galley of type and scrambled it to make a
+type specimen book. It has survived not only five centuries, but
+also the leap into electronic typesetting, remaining essentially
+unchanged. It was popularised in the 1960s with the release of
+Letraset sheets containing Lorem Ipsum passages, and more recently
+with desktop publishing software like Aldus PageMaker including
+versions of Lorem Ipsum.</p>
+]]></data>
+            <data alias="pageTitle">This is a subpage</data>
+            <data alias="metaDescription"><![CDATA[This is a subpage]]></data>
+            <data alias="metaKeywords"><![CDATA[]]></data>
+            <data alias="umbracoNaviHide">0</data>
+            <data alias="umbracoRedirect" />
+          </node>
+        </node>
+        <node id="1053" version="4b90239d-3b56-47db-a929-bbde643fddcb" parentID="1051" level="2" writerID="0" creatorID="0" nodeType="1047" template="1046" sortOrder="2" createDate="2009-11-19T13:50:37" updateDate="2010-06-16T10:38:20" nodeName="Another page" urlName="another-page" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="Textpage" path="-1,1051,1053">
+          <data alias="pageHeading">Another page</data>
+          <data alias="pageContent"><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Vestibulum imperdiet dictum risus eget rhoncus. Phasellus interdum
+dignissim sem sed dapibus? Praesent posuere accumsan eleifend.
+Maecenas ut eros justo, vel pharetra elit. Morbi at tortor elit, eu
+tempor dolor. Nullam consectetur mollis metus eu sodales. Etiam
+eget arcu quis sapien sagittis laoreet fringilla non dui. Cras eu
+placerat libero. Donec dictum diam a est vulputate ornare. Duis non
+risus orci. Nullam metus nisi, semper nec vestibulum vulputate,
+luctus quis turpis. Ut eu lacus risus. Nullam sagittis, mi quis
+aliquet ornare, sem odio egestas augue, at commodo massa nunc sed
+lectus. Aenean interdum fermentum tortor, id egestas eros congue
+ac. Vestibulum massa elit, adipiscing non imperdiet ultrices,
+rhoncus quis nunc. Nunc molestie gravida interdum. Pellentesque
+dolor magna, imperdiet sed feugiat non, malesuada id purus. Nullam
+sem leo, blandit id tempus sit amet, ultrices eget neque. Curabitur
+malesuada, ipsum nec imperdiet pellentesque, sem tellus convallis
+urna, et malesuada orci magna vitae tellus. Donec viverra, nulla ut
+ultrices eleifend, neque metus pharetra felis, ut porta dui sapien
+a nisl.</p>
+
+<p>Praesent vulputate imperdiet viverra. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Pellentesque consequat molestie est! Ut eget lorem ut lorem
+adipiscing commodo vel bibendum tortor. Aliquam id metus velit.
+Vestibulum ipsum odio, faucibus non malesuada eget, mattis nec
+ante. Integer mollis, magna semper cursus blandit; sapien massa
+venenatis neque, sed adipiscing nisi ante sed tortor. In mi dui,
+adipiscing sed bibendum a, tempor a elit. Fusce consectetur iaculis
+odio adipiscing consectetur. Nam sed elit eu lacus scelerisque
+bibendum. Morbi rutrum porta scelerisque! Vestibulum ante ipsum
+primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Aenean suscipit nibh nec tortor malesuada commodo. Sed ornare, nunc
+in pharetra lacinia, nunc nulla convallis mauris; vulputate
+volutpat eros massa non nibh. Suspendisse potenti. Donec placerat
+malesuada nibh, at rutrum lectus dapibus eu? Etiam at neque vel
+diam malesuada tempor. Class aptent taciti sociosqu ad litora
+torquent per conubia nostra, per inceptos himenaeos.</p>
+]]></data>
+          <data alias="pageTitle">Another page title</data>
+          <data alias="metaDescription"><![CDATA[Another page description]]></data>
+          <data alias="metaKeywords"><![CDATA[]]></data>
+          <data alias="umbracoNaviHide">0</data>
+          <data alias="umbracoRedirect" />
+        </node>
+        <node id="1059" version="117006a8-70ca-4173-a958-aeb15265fd5b" parentID="1051" level="2" writerID="0" creatorID="0" nodeType="1055" template="1056" sortOrder="3" createDate="2009-11-19T14:09:06" updateDate="2010-06-16T10:38:20" nodeName="News" urlName="news" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="NewsArea" path="-1,1051,1059">
+          <data alias="newsFeaturedArticle" />
+          <data alias="newsPerPage" />
+          <data alias="pageHeading">Company News</data>
+          <data alias="pageContent"><![CDATA[
+<p>Company news to follow... Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Curabitur et semper orci. Duis
+posuere.</p>
+]]></data>
+          <data alias="pageTitle">Company News</data>
+          <data alias="metaDescription"><![CDATA[Company News Description]]></data>
+          <data alias="metaKeywords"><![CDATA[]]></data>
+          <data alias="umbracoNaviHide">0</data>
+          <data alias="umbracoRedirect" />
+          <node id="1060" version="644f6132-80a8-4abe-8520-4fd62d9e2e25" parentID="1059" level="3" writerID="0" creatorID="0" nodeType="1057" template="1058" sortOrder="1" createDate="2009-11-19T14:10:54" updateDate="2010-06-16T10:38:20" nodeName="A news item" urlName="a-news-item" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="NewsItem" path="-1,1051,1059,1060">
+            <data alias="newsDate">2009-11-20T00:00:00</data>
+            <data alias="newsSummary"><![CDATA[In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna nulla, a sagittis turpis. Duis semper;]]></data>
+            <data alias="newsImage" />
+            <data alias="pageHeading">The first news item</data>
+            <data alias="pageContent"><![CDATA[
+<p>In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer
+ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna
+nulla, a sagittis turpis. Duis semper; dui tempus porta faucibus,
+est ligula varius tortor, eu hendrerit velit mi at metus. Duis
+pulvinar molestie orci eu hendrerit. Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Mauris imperdiet ligula eget ante placerat vel eleifend magna
+elementum. Donec viverra lorem at purus blandit laoreet! Etiam
+mollis mi in magna mollis laoreet. Vestibulum sit amet lorem neque,
+quis malesuada leo. Aliquam condimentum, arcu et dictum congue,
+nulla eros sollicitudin massa, bibendum convallis dolor enim
+laoreet magna. Pellentesque metus lacus, placerat in condimentum
+sit amet, tempor vitae leo. Cras eleifend aliquam.</p>
+
+<p>In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer
+ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna
+nulla, a sagittis turpis. Duis semper; dui tempus porta faucibus,
+est ligula varius tortor, eu hendrerit velit mi at metus. Duis
+pulvinar molestie orci eu hendrerit. Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Mauris imperdiet ligula eget ante placerat vel eleifend magna
+elementum. Donec viverra lorem at purus blandit laoreet! Etiam
+mollis mi in magna mollis laoreet. Vestibulum sit amet lorem neque,
+quis malesuada leo. Aliquam condimentum, arcu et dictum congue,
+nulla eros sollicitudin massa, bibendum convallis dolor enim
+laoreet magna. Pellentesque metus lacus, placerat in condimentum
+sit amet, tempor vitae leo. Cras eleifend aliquam.</p>
+]]></data>
+            <data alias="pageTitle">The first news item</data>
+            <data alias="metaDescription"><![CDATA[In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna nulla, a sagittis turpis. Duis semper;]]></data>
+            <data alias="metaKeywords"><![CDATA[]]></data>
+            <data alias="umbracoNaviHide">0</data>
+            <data alias="umbracoRedirect" />
+          </node>
+          <node id="1061" version="82a8baec-6fd5-44ac-b493-0a3bc39ac3b5" parentID="1059" level="3" writerID="0" creatorID="0" nodeType="1057" template="1058" sortOrder="2" createDate="2009-11-19T14:11:58" updateDate="2010-06-16T10:38:21" nodeName="Another news item" urlName="another-news-item" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="NewsItem" path="-1,1051,1059,1061">
+            <data alias="newsDate">2009-11-11T00:00:00</data>
+            <data alias="newsSummary"><![CDATA[In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna nulla, a sagittis turpis. Duis semper;]]></data>
+            <data alias="newsImage">1063</data>
+            <data alias="pageHeading">Another news item</data>
+            <data alias="pageContent"><![CDATA[
+<p>In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer
+ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna
+nulla, a sagittis turpis. Duis semper; dui tempus porta faucibus,
+est ligula varius tortor, eu hendrerit velit mi at metus. Duis
+pulvinar molestie orci eu hendrerit. Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Mauris imperdiet ligula eget ante placerat vel eleifend magna
+elementum. Donec viverra lorem at purus blandit laoreet! Etiam
+mollis mi in magna mollis laoreet. Vestibulum sit amet lorem neque,
+quis malesuada leo. Aliquam condimentum, arcu et dictum congue,
+nulla eros sollicitudin massa, bibendum convallis dolor enim
+laoreet magna. Pellentesque metus lacus, placerat in condimentum
+sit amet, tempor vitae leo. Cras eleifend aliquam.</p>
+
+<p>In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer
+ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna
+nulla, a sagittis turpis. Duis semper; dui tempus porta faucibus,
+est ligula varius tortor, eu hendrerit velit mi at metus. Duis
+pulvinar molestie orci eu hendrerit. Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas.
+Mauris imperdiet ligula eget ante placerat vel eleifend magna
+elementum. Donec viverra lorem at purus blandit laoreet! Etiam
+mollis mi in magna mollis laoreet. Vestibulum sit amet lorem neque,
+quis malesuada leo. Aliquam condimentum, arcu et dictum congue,
+nulla eros sollicitudin massa, bibendum convallis dolor enim
+laoreet magna. Pellentesque metus lacus, placerat in condimentum
+sit amet, tempor vitae leo. Cras eleifend aliquam.</p>
+]]></data>
+            <data alias="pageTitle">Another news item</data>
+            <data alias="metaDescription"><![CDATA[In hac habitasse platea dictumst. Nunc ut rhoncus lacus. Integer ut lacus augue! Aliquam nec hendrerit tortor! Pellentesque non urna nulla, a sagittis turpis. Duis semper;]]></data>
+            <data alias="metaKeywords"><![CDATA[]]></data>
+            <data alias="umbracoNaviHide">0</data>
+            <data alias="umbracoRedirect" />
+          </node>
+        </node>
+        <node id="1068" version="609d9d66-8386-4fa8-ad95-e37f3ed1a03e" parentID="1051" level="2" writerID="0" creatorID="0" nodeType="1064" template="1065" sortOrder="4" createDate="2009-11-19T16:00:20" updateDate="2010-06-16T10:38:21" nodeName="Events" urlName="events" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="EventsCalendar" path="-1,1051,1068">
+          <data alias="pageHeading">Company Events</data>
+          <data alias="pageContent"><![CDATA[
+<p>A calendar showing all of the cool things we are doing in the
+upcoming financial year.</p>
+]]></data>
+          <data alias="pageTitle">Company Events</data>
+          <data alias="metaDescription"><![CDATA[Company Events]]></data>
+          <data alias="metaKeywords"><![CDATA[]]></data>
+          <data alias="umbracoNaviHide">0</data>
+          <data alias="umbracoRedirect" />
+          <node id="1069" version="0e83c439-c26a-49ba-b89d-d99c94645b04" parentID="1068" level="3" writerID="0" creatorID="0" nodeType="1066" template="1067" sortOrder="1" createDate="2009-11-19T16:01:09" updateDate="2010-06-16T10:38:21" nodeName="An Event" urlName="an-event" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="Event" path="-1,1051,1068,1069">
+            <data alias="eventStartDateTime">2009-12-24T16:25:00</data>
+            <data alias="eventEndDateTime">2009-12-25T16:25:00</data>
+            <data alias="eventSummary"><![CDATA[The very exciting Annual Company AGM!]]></data>
+            <data alias="eventLocationName" />
+            <data alias="eventLocationAddress"><![CDATA[]]></data>
+            <data alias="pageHeading">Annual Company AGM</data>
+            <data alias="pageContent"><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+elementum congue odio, vestibulum semper ipsum mollis in. Etiam
+pretium, orci nec congue feugiat, mauris velit facilisis enim, sed
+tincidunt dolor nisl ut lacus? Cras mollis lobortis convallis. Ut
+vehicula nibh ac justo pharetra sit amet ullamcorper dui consequat.
+Pellentesque et nunc et nisi auctor euismod? Suspendisse tincidunt
+metus sed sapien auctor quis hendrerit diam ullamcorper! Donec
+pharetra aliquam euismod. Mauris sed consequat mauris. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Nulla</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+elementum congue odio, vestibulum semper ipsum mollis in. Etiam
+pretium, orci nec congue feugiat, mauris velit facilisis enim, sed
+tincidunt dolor nisl ut lacus? Cras mollis lobortis convallis. Ut
+vehicula nibh ac justo pharetra sit amet ullamcorper dui consequat.
+Pellentesque et nunc et nisi auctor euismod? Suspendisse tincidunt
+metus sed sapien auctor quis hendrerit diam ullamcorper! Donec
+pharetra aliquam euismod. Mauris sed consequat mauris. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Nulla</p>
+]]></data>
+            <data alias="pageTitle">The very exciting Annual Company AGM!</data>
+            <data alias="metaDescription"><![CDATA[The very exciting Annual Company AGM!]]></data>
+            <data alias="metaKeywords"><![CDATA[]]></data>
+            <data alias="umbracoNaviHide">0</data>
+            <data alias="umbracoRedirect" />
+          </node>
+          <node id="1070" version="bef2a9df-d832-4a17-9e33-64502740afbc" parentID="1068" level="3" writerID="0" creatorID="0" nodeType="1066" template="1067" sortOrder="2" createDate="2009-11-19T16:32:20" updateDate="2010-06-16T10:38:21" nodeName="An Event (1)" urlName="an-event-(1)" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="Event" path="-1,1051,1068,1070">
+            <data alias="eventStartDateTime">2009-12-16T16:24:00</data>
+            <data alias="eventEndDateTime">2009-12-16T17:24:00</data>
+            <data alias="eventSummary"><![CDATA[This is definitely an event to look forward to!]]></data>
+            <data alias="eventLocationName">My House</data>
+            <data alias="eventLocationAddress"><![CDATA[]]></data>
+            <data alias="pageHeading">A great event to look forward to</data>
+            <data alias="pageContent"><![CDATA[
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+elementum congue odio, vestibulum semper ipsum mollis in. Etiam
+pretium, orci nec congue feugiat, mauris velit facilisis enim, sed
+tincidunt dolor nisl ut lacus? Cras mollis lobortis convallis. Ut
+vehicula nibh ac justo pharetra sit amet ullamcorper dui consequat.
+Pellentesque et nunc et nisi auctor euismod? Suspendisse tincidunt
+metus sed sapien auctor quis hendrerit diam ullamcorper! Donec
+pharetra aliquam euismod. Mauris sed consequat mauris. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Nulla</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+elementum congue odio, vestibulum semper ipsum mollis in. Etiam
+pretium, orci nec congue feugiat, mauris velit facilisis enim, sed
+tincidunt dolor nisl ut lacus? Cras mollis lobortis convallis. Ut
+vehicula nibh ac justo pharetra sit amet ullamcorper dui consequat.
+Pellentesque et nunc et nisi auctor euismod? Suspendisse tincidunt
+metus sed sapien auctor quis hendrerit diam ullamcorper! Donec
+pharetra aliquam euismod. Mauris sed consequat mauris. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Nulla</p>
+]]></data>
+            <data alias="pageTitle">A great event to look forward to</data>
+            <data alias="metaDescription"><![CDATA[A great event to look forward to]]></data>
+            <data alias="metaKeywords"><![CDATA[]]></data>
+            <data alias="umbracoNaviHide">0</data>
+            <data alias="umbracoRedirect" />
+          </node>
+          <node id="1074" version="e903f424-d956-4c50-9214-19364144714a" parentID="1068" level="3" writerID="0" creatorID="0" nodeType="1066" template="1067" sortOrder="3" createDate="2009-11-20T16:35:54" updateDate="2010-06-16T10:38:21" nodeName="A little event" urlName="a-little-event" writerName="Administrator" creatorName="Administrator" nodeTypeAlias="Event" path="-1,1051,1068,1074">
+            <data alias="eventStartDateTime">2009-11-21T16:28:00</data>
+            <data alias="eventEndDateTime">2009-11-20T17:28:00</data>
+            <data alias="eventSummary"><![CDATA[This will be a fun event]]></data>
+            <data alias="eventLocationName">Here</data>
+            <data alias="eventLocationAddress"><![CDATA[There street, 
+Here Town,
+Everywhere Country]]></data>
+            <data alias="pageHeading">This is an event</data>
+            <data alias="pageContent"><![CDATA[
+<p>It will be fun</p>
+
+<p>&nbsp;</p>
+
+<div
+style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;"
+ id="_mcePaste">/*
+--------------------------------------------------------------<br />
+<br />
+ screen.css<br />
+ Screen stylesheet<br />
+ by geckonewmedia.com<br />
+<br />
+ TOC<br />
+ ----------------------------------<br />
+ 1. =RESET<br />
+ 2. =BASE_TYPOGRAPHY<br />
+ 3. =BASE_STYLES<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =RESET<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+html, body, div, span, object, iframe,<br />
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,<br />
+a, abbr, acronym, address, code,<br />
+del, dfn, img, q, dl, dt, dd, ol, ul, li,<br />
+fieldset, form, label, legend,<br />
+table, caption, tbody, tfoot, thead, tr, th, td {<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ border: 0;<br />
+ font-weight: inherit;<br />
+ font-style: inherit;<br />
+ font-size: 100%;<br />
+ font-family: inherit;<br />
+ vertical-align: baseline;<br />
+}<br />
+<br />
+body {<br />
+ line-height: 1.5;<br />
+}<br />
+<br />
+table { border-collapse: separate; border-spacing: 0; }<br />
+caption, th, td { text-align: left; font-weight: normal; }<br />
+table, td, th { vertical-align: middle; }<br />
+<br />
+blockquote:before, blockquote:after, q:before, q:after { content:
+""; }<br />
+blockquote, q { quotes: "" ""; }<br />
+<br />
+a img { border: none; }<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =BASE<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+body {<br />
+ background: #e5e5e5;<br />
+ text-align: center;<br />
+}<br />
+<br />
+div#page_container {<br />
+ width: 960px;<br />
+ text-align: left;<br />
+ margin: 40px auto 0 auto;<br />
+ background: white;<br />
+ border: 1px solid #ccc;<br />
+}<br />
+<br />
+<br />
+div.article {<br />
+ width: 730px;<br />
+ padding: 15px;<br />
+ float: left;<br />
+}<br />
+<br />
+<br />
+div.aside {<br />
+ width: 200px;<br />
+ padding: 0px;<br />
+ float: left;<br />
+}<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =HEADER &amp; TOPNAV<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+div.header {<br />
+ width: 100%;<br />
+ position: relative;<br />
+ height: 130px;<br />
+}<br />
+<br />
+div.header form.site_search {<br />
+ position: absolute;<br />
+ right: 15px;<br />
+ top: 15px;<br />
+}<br />
+<br />
+div.header h1 {<br />
+ font-size: 28px;<br />
+ padding: 15px 15px 0 15px;<br />
+ margin: 0;<br />
+}<br />
+<br />
+div.header ul.nav {<br />
+ width: 100%;<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ background: #e3e3e3;<br />
+ list-style: none;<br />
+ float: left;<br />
+ border: 1px solid #ccc;<br />
+ border-left: none;<br />
+ border-right: none;<br />
+ position: absolute;<br />
+ bottom: 0px;<br />
+ left: 0px;<br />
+}<br />
+<br />
+div.header ul.nav li {<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ display: block;<br />
+ float: left;<br />
+}<br />
+<br />
+div.header ul.nav li a {<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ display: block;<br />
+ float: left;<br />
+ padding: 5px 15px;<br />
+ background: #e3e3e3;<br />
+ border-right: 1px solid #ccc;<br />
+ text-decoration: none;<br />
+}<br />
+<br />
+div.header ul.nav li a:hover {<br />
+ background: #d3d3d3;<br />
+}<br />
+<br />
+div.header ul.nav li.current a {<br />
+ background: #d3d3d3;<br />
+}&nbsp;&nbsp; &nbsp;<br />
+<br />
+blockquote {<br />
+ background: #e4e4e4;<br />
+ padding: 10px;<br />
+ font-style: italic;<br />
+ line-height: 1.3;<br />
+ border: 1px solid #ccc;<br />
+}<br />
+<br />
+blockquote p:last-child {<br />
+ margin-bottom: 0px;<br />
+}<br />
+<br />
+p.tagline {<br />
+ font-style: italic;<br />
+ margin: 0 0 0 0;<br />
+ padding: 0 0 0 15px;<br />
+}<br />
+<br />
+p.contact&nbsp; {<br />
+ padding: 0 0 0 15px;<br />
+ font-size: 11px;<br />
+}<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =SIDEBAR/SUBNAV<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+ul.subnav,<br />
+ul.subnav ul {<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ list-style: none;<br />
+}<br />
+<br />
+ul.subnav li {<br />
+ display: block;<br />
+ position: relative;<br />
+}<br />
+<br />
+ul.subnav li a {<br />
+ display: block;<br />
+ text-decoration: none;<br />
+ position: relative;<br />
+ background: #e3e3e3;<br />
+ border-bottom: 1px solid white;<br />
+ padding: 5px 10px;<br />
+ font-size: 12px;<br />
+}<br />
+<br />
+ul.subnav li a:hover {<br />
+ background: #d3d3d3;<br />
+}<br />
+<br />
+ul.subnav li li a {<br />
+ padding-left: 20px;<br />
+ font-size: 11px;<br />
+}<br />
+<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =FOOTER<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+div#page_footer {<br />
+ width: 960px;<br />
+ margin: 0 auto 20px auto;<br />
+}<br />
+<br />
+div#page_footer p {<br />
+ margin: 0;<br />
+ padding: 10px 0 30px 0;<br />
+}<br />
+<br />
+<br />
+p.footer_left {<br />
+ width: 480px;<br />
+ float: left;<br />
+ text-align: left;<br />
+}<br />
+<br />
+<br />
+p.footer_right {<br />
+ width: 480px;<br />
+ float: left;<br />
+ text-align: right;<br />
+}<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =TYPOGRAPHY<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+<br />
+body {<br />
+ font-family: arial, verdana;<br />
+}<br />
+<br />
+<br />
+h1, h2, h3, h4, h5, h6&nbsp; {<br />
+ font-family: georgia, 'Times New Roman', serif;<br />
+ margin: 1em 0 0.5em 0;<br />
+ line-height: 1;<br />
+}<br />
+<br />
+h2 {<br />
+ font-size: 32px; &nbsp;<br />
+}<br />
+<br />
+h3 {<br />
+ font-size: 26px; &nbsp;<br />
+}<br />
+<br />
+h4 {<br />
+ font-size: 20px; &nbsp;<br />
+}<br />
+<br />
+h5 {<br />
+ font-size: 18px; &nbsp;<br />
+}<br />
+<br />
+h6 {<br />
+ font-weight: bold;<br />
+}<br />
+<br />
+.article ul,<br />
+.article ol {<br />
+ margin: 1em 0;<br />
+ padding-left: 2em;<br />
+}<br />
+<br />
+p {<br />
+ margin: 0 0 1em 0;<br />
+}<br />
+<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =FORMS<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+<br />
+div.form fieldset {<br />
+<br />
+}<br />
+<br />
+ul.form_fields {<br />
+ margin: 15px 0;<br />
+ padding: 0;<br />
+ list-style: none;<br />
+ font-size: 12px;<br />
+}<br />
+<br />
+ul.form_fields li {<br />
+ margin: 0 0 5px 0;<br />
+ padding: 0;<br />
+ clear: both;<br />
+}<br />
+<br />
+ul.form_fields li label {<br />
+ display: block;<br />
+ float: left;<br />
+ width: 90px;<br />
+ padding: 5px;<br />
+}<br />
+<br />
+ul.block_labels li label {<br />
+ float: none;<br />
+ padding: 0 0 3px 0;<br />
+ font-weight: bold;<br />
+}<br />
+<br />
+<br />
+ul.form_fields li label.indented_label {<br />
+ padding-left: 105px;<br />
+}<br />
+<br />
+<br />
+ul.form_fields li label.wide_label {<br />
+ width: 100%;<br />
+}<br />
+<br />
+<br />
+input[type=text],<br />
+textarea {<br />
+ border:1px solid #dadada;<br />
+ border-top-color: #999;&nbsp;&nbsp; &nbsp;<br />
+ padding: 5px;<br />
+}<br />
+<br />
+input[type=text]:focus,<br />
+textarea:focus {<br />
+ border:1px solid #999;<br />
+ border-top-color: #555;<br />
+ background-color: #fdffeb;<br />
+}<br />
+<br />
+input.input_long { width: 260px; }<br />
+input.input_short { width: 80px }<br />
+<br />
+ul.form_fields li select {<br />
+ padding: 2px;<br />
+ border:1px solid #dadada;<br />
+}<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =NEWS<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+ul.news_list {<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ list-style: none;<br />
+ border-top: 1px solid #ccc;<br />
+}<br />
+<br />
+ul.news_list li {<br />
+ margin: 0 0 0 0;<br />
+ padding: 15px 0;<br />
+ list-style: none;<br />
+ clear: both;<br />
+ float: left;<br />
+ width: 100%;<br />
+ border-bottom: 1px solid #ccc;<br />
+}<br />
+<br />
+ul.news_list li.featured_news {<br />
+ background: #f4f4f4;<br />
+<br />
+}<br />
+<br />
+div.news_image,<br />
+div.main_news_image {<br />
+ float: left;<br />
+ width: 135px;<br />
+}<br />
+<br />
+div.news_image img,<br />
+div.main_news_image img {<br />
+ width: 120px;<br />
+<br />
+}<br />
+<br />
+div.news_content,<br />
+div.main_news_item {<br />
+ float: left;&nbsp;&nbsp; &nbsp;<br />
+ width: 595px;<br />
+}<br />
+<br />
+ul.news_list h3 {<br />
+ margin-top: 0px;<br />
+}<br />
+<br />
+img.news_image {<br />
+ float: right;<br />
+ margin: 0 0 10px 10px;<br />
+}<br />
+<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =EVENTS<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+div.event_main {<br />
+ float: left;<br />
+ width: 495px;<br />
+ padding-right: 15px;<br />
+}<br />
+<br />
+div.event_main h2 {<br />
+ font-size: 22px;<br />
+}<br />
+<br />
+div.event_nav {<br />
+ background: #f1f1f1;<br />
+ border: 1px solid #ccc;<br />
+ border-left: none;<br />
+ border-right: none;<br />
+ font-size: 11px;<br />
+ padding: 3px 0;<br />
+ position: relative;<br />
+ float: left;<br />
+ width: 100%;<br />
+}<br />
+<br />
+<br />
+div.event_nav p {<br />
+ font-size: 11px;<br />
+ float: left;<br />
+ margin: 0;<br />
+}<br />
+<br />
+div.event_nav a.next_month {<br />
+ position: absolute;<br />
+ right: 0px;<br />
+ top: 4px;<br />
+}<br />
+<br />
+div.event_nav a.previous_month {<br />
+ position: absolute;<br />
+ right: 65px;<br />
+ top: 4px;<br />
+}<br />
+<br />
+div.event_sidebar {<br />
+ width: 220px;<br />
+ float: left;<br />
+}<br />
+<br />
+div.event_sidebar h5 {<br />
+ padding: 2px 0 2px 0;<br />
+ border-bottom: 1px solid #ccc;<br />
+}<br />
+<br />
+h5 a.previous_month span,<br />
+h5&nbsp; a.next_month span {<br />
+ display:none;<br />
+}<br />
+<br />
+h5 a.previous_month,<br />
+h5 a.next_month&nbsp; {<br />
+ width: 9px;<br />
+ display: block;<br />
+ float: left;<br />
+ height: 13px;<br />
+ margin-right: 4px;<br />
+ background-position: top left;<br />
+ background-repeat: no-repeat;<br />
+}<br />
+<br />
+h5 a.previous_month {<br />
+ background-image: url(images/arrow_left.gif);<br />
+}<br />
+<br />
+h5 a.next_month {<br />
+ background-image: url(images/arrow_right.gif);<br />
+}<br />
+<br />
+table.sm_calendar {<br />
+ border-collapse: collapse;<br />
+ border: 1px solid #ccc;<br />
+ width: 220px;<br />
+ font-size: 11px;<br />
+}<br />
+<br />
+table.sm_calendar th,<br />
+table.sm_calendar td {<br />
+ padding: 2px;<br />
+ border: 1px solid #e7e7e7;<br />
+ text-align: center;<br />
+<br />
+}<br />
+<br />
+table.sm_calendar td.eventDay {<br />
+ background-color: #c6364a;<br />
+ color: white;<br />
+ font-weight: bold;<br />
+ position: relative !important;<br />
+<br />
+}<br />
+<br />
+div.events_today {<br />
+ position: absolute;<br />
+ background: #fff;<br />
+ color: #000;<br />
+ border: 1px solid #444;<br />
+ z-index: 99999;<br />
+ width: 200px;<br />
+ text-align: left;<br />
+ padding: 10px;<br />
+ display: none;<br />
+}<br />
+<br />
+div.events_today h6 {<br />
+ margin: 0 0 5px 0;<br />
+ font-size: 14px;<br />
+ background: url(images/calendar-day.png) left center
+no-repeat;<br />
+ padding:1px 0 1px 18px;<br />
+}<br />
+<br />
+table.sm_calendar th {<br />
+ font-weight: bold;<br />
+}<br />
+<br />
+p.ical_export {<br />
+ padding: 10px 0;<br />
+ font-size: 12px;<br />
+}<br />
+<br />
+p.ical_export a {<br />
+ background: url(images/calendar-day.png) left center
+no-repeat;<br />
+ padding:1px 0 1px 18px;<br />
+}<br />
+<br />
+ul.events_list {<br />
+ clear: both;<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ list-style: none;<br />
+}<br />
+<br />
+ul.events_list li {<br />
+ clear: both;<br />
+ margin: 0;<br />
+ padding: 15px 0 0 0;<br />
+ float: left;<br />
+ width: 100%;<br />
+}<br />
+<br />
+ul.events_list li p.event_date_cal {<br />
+ width: 40px;<br />
+ margin: 0 15px 0 0;<br />
+ text-align: center;<br />
+ border: 1px solid #999;<br />
+ float: left;<br />
+<br />
+ -moz-box-shadow: 0px 0px 3px #c1c1c1;<br />
+}<br />
+<br />
+span.event_date_cal_day {<br />
+ display: block;<br />
+ background: #ccc;<br />
+ font-size: 12px;<br />
+ font-weight: bold;<br />
+ text-transform: uppercase;<br />
+ border-bottom: 1px solid #999;'<br />
+}<br />
+<br />
+span.event_date_cal_month {<br />
+ display: block;<br />
+ font-size: 18px;<br />
+ font-weight: bold;<br />
+ text-transform: uppercase;<br />
+}<br />
+<br />
+ul.events_list li h3 {<br />
+ margin: 0;<br />
+ font-size: 18px;<br />
+}<br />
+<br />
+ul.events_list li p {<br />
+ font-size: 12px;<br />
+}<br />
+<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =HOMEPAGE<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+div.homepage {<br />
+ padding: 0 15px 15px 15px;<br />
+}<br />
+<br />
+<br />
+ul.home_news {<br />
+ margin: 0;<br />
+ padding: 0;<br />
+ list-style: none;<br />
+}<br />
+<br />
+ul.home_news li {<br />
+ clear: left;<br />
+}<br />
+<br />
+ul.home_news li h3 {<br />
+ font-size: 18px;<br />
+ margin: 0 0 5px 0 ;<br />
+}<br />
+<br />
+<br />
+/*
+--------------------------------------------------------------<br />
+ =MISC<br />
+--------------------------------------------------------------
+*/<br />
+<br />
+div.clear {<br />
+ clear: both;<br />
+ height: 0px;<br />
+ overflow:hidden;<br />
+}<br />
+<br />
+.goright {<br />
+ float: right;<br />
+ margin-left: 10px;<br />
+}<br />
+<br />
+.goleft {<br />
+ float: left;<br />
+ margin-right: 10px<br />
+}<br />
+<br />
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID
+DUPLICATE PROPERTIES */<br />
+<br />
+<br />
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID
+DUPLICATE PROPERTIES */<br />
+<br />
+</div>
+]]></data>
+            <data alias="pageTitle">This will be a fun event</data>
+            <data alias="metaDescription"><![CDATA[This will be a fun event]]></data>
+            <data alias="metaKeywords"><![CDATA[]]></data>
+            <data alias="umbracoNaviHide">0</data>
+            <data alias="umbracoRedirect" />
+          </node>
+        </node>
+      </node>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>* Textpage</Name>
+        <Alias>Textpage</Alias>
+        <Icon>page.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Meta</Master>
+        <AllowedTemplates>
+          <Template>Textpage</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Textpage</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Textpage</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Page Heading</Name>
+          <Alias>pageHeading</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>pageContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Text Describing the content of this page, no more than approx 250chars]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[(optional) - short comma separated list of page keywords]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Temporary Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick another page in the site to temporarily redirect this page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Event</Name>
+        <Alias>Event</Alias>
+        <Icon>calendar-day.png</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Textpage</Master>
+        <AllowedTemplates>
+          <Template>Event</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Event</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Start Date/Time</Name>
+          <Alias>eventStartDateTime</Alias>
+          <Type>b6fb1622-afa5-4bbf-a3cc-d9672a442222</Type>
+          <Definition>e4d66c0f-b935-4200-81f0-025f7256b89a</Definition>
+          <Tab>Event Info</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>End Date/Time</Name>
+          <Alias>eventEndDateTime</Alias>
+          <Type>b6fb1622-afa5-4bbf-a3cc-d9672a442222</Type>
+          <Definition>e4d66c0f-b935-4200-81f0-025f7256b89a</Definition>
+          <Tab>Event Info</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Summary</Name>
+          <Alias>eventSummary</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Event Info</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Location Name</Name>
+          <Alias>eventLocationName</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Event Info</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Location Address</Name>
+          <Alias>eventLocationAddress</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Event Info</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Heading</Name>
+          <Alias>pageHeading</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>pageContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Text Describing the content of this page, no more than approx 250chars]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[(optional) - short comma separated list of page keywords]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Temporary Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick another page in the site to temporarily redirect this page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>11</Id>
+          <Caption>Event Info</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Events Calendar</Name>
+        <Alias>EventsCalendar</Alias>
+        <Icon>calendar-month.png</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Textpage</Master>
+        <AllowedTemplates>
+          <Template>EventsCalendar</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>EventsCalendar</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Event</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Page Heading</Name>
+          <Alias>pageHeading</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>pageContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Text Describing the content of this page, no more than approx 250chars]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[(optional) - short comma separated list of page keywords]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Temporary Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick another page in the site to temporarily redirect this page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Homepage</Name>
+        <Alias>Homepage</Alias>
+        <Icon>home.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Meta</Master>
+        <AllowedTemplates>
+          <Template>Homepage</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Homepage</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Textpage</DocumentType>
+        <DocumentType>NewsArea</DocumentType>
+        <DocumentType>EventsCalendar</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Site Name</Name>
+          <Alias>siteName</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Site Settings</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Primary Contact Number</Name>
+          <Alias>siteContactNumber</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Site Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Site Tagline</Name>
+          <Alias>siteTagline</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Site Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Company Address</Name>
+          <Alias>siteMainAddress</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Site Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Primary Email Address</Name>
+          <Alias>siteEmailAddress</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Site Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>^\w+[\w-\.]*\@\w+((-\w+)|(\w*))\.[a-z]{2,3}$</Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>pageContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>a51e20e8-d5a5-4e2d-88a8-73d05f1c9856</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>News Page</Name>
+          <Alias>homeNewsPage</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick the news page from which to display news]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Text Describing the content of this page, no more than approx 250chars]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[(optional) - short comma separated list of page keywords]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Temporary Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick another page in the site to temporarily redirect this page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>12</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>10</Id>
+          <Caption>Site Settings</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Meta</Name>
+        <Alias>Meta</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Text Describing the content of this page, no more than approx 250chars]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[(optional) - short comma separated list of page keywords]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Temporary Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick another page in the site to temporarily redirect this page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>News Area</Name>
+        <Alias>NewsArea</Alias>
+        <Icon>newspapers.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Textpage</Master>
+        <AllowedTemplates>
+          <Template>NewsArea</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>NewsArea</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>NewsItem</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Featured article</Name>
+          <Alias>newsFeaturedArticle</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>News Area</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Selects a "sticky" news article to always appear at the top of the list]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Items per page</Name>
+          <Alias>newsPerPage</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>News Area</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[How many news articles per page? Defaults to 15]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Heading</Name>
+          <Alias>pageHeading</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>pageContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Text Describing the content of this page, no more than approx 250chars]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[(optional) - short comma separated list of page keywords]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Temporary Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick another page in the site to temporarily redirect this page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>9</Id>
+          <Caption>News Area</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>News Item</Name>
+        <Alias>NewsItem</Alias>
+        <Icon>newspaper.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Textpage</Master>
+        <AllowedTemplates>
+          <Template>NewsItem</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>NewsItem</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>News Date</Name>
+          <Alias>newsDate</Alias>
+          <Type>23e93522-3200-44e2-9f29-e61a6fcbb79a</Type>
+          <Definition>5046194e-4237-453c-a547-15db3a07c4e1</Definition>
+          <Tab>News</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Set the publication date of this news item]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>News Summary</Name>
+          <Alias>newsSummary</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>News</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The Summary of the news, as shown in the news area]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>News Image</Name>
+          <Alias>newsImage</Alias>
+          <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+          <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+          <Tab>News</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[An image to represent this news item]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Heading</Name>
+          <Alias>pageHeading</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>pageContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Text Describing the content of this page, no more than approx 250chars]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[(optional) - short comma separated list of page keywords]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Temporary Redirect</Name>
+          <Alias>umbracoRedirect</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Pick another page in the site to temporarily redirect this page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>8</Id>
+          <Caption>News</Caption>
+        </Tab>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+  </DocumentTypes>
+  <Templates>
+    <Template>
+      <Name>Event</Name>
+      <Alias>Event</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/masterpages/Master.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="childContent" runat="server">
+		<div class="article">
+			<umbraco:Macro Alias="BreadcrumbNav" runat="server"></umbraco:Macro>
+			<h2><umbraco:Item field="pageHeading" useIfEmpty="pageTitle" runat="server"></umbraco:Item></h2>
+			<umbraco:Macro Alias="EventShowInfo" runat="server"></umbraco:Macro>
+			<umbraco:Item field="pageContent" runat="server"></umbraco:Item>
+			<umbraco:Macro Alias="EventsIcalExportSingleLink" runat="server"></umbraco:Macro>
+		</div> <!-- /article -->
+		
+		<div class="aside">
+			
+			<umbraco:Macro Alias="SubNav" runat="server"></umbraco:Macro>
+			
+		</div> <!-- aside -->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Events Calendar</Name>
+      <Alias>EventsCalendar</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/masterpages/Master.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="childContent" runat="server">
+		<div class="article">
+			<umbraco:Macro Alias="BreadcrumbNav" runat="server"></umbraco:Macro>
+			<umbraco:Macro Alias="EventArea" runat="server"></umbraco:Macro>
+		</div> <!-- /article -->
+		
+		<div class="aside">
+			
+			<umbraco:Macro Alias="SubNav" runat="server"></umbraco:Macro>
+			
+		</div> <!-- aside -->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Homepage</Name>
+      <Alias>Homepage</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/masterpages/Master.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="childContent" runat="server">
+		<div class="homepage">
+			
+			<h2><umbraco:Item field="pageHeading" useIfEmpty="pageTitle" runat="server"></umbraco:Item></h2>
+			<umbraco:Item field="pageContent" runat="server"></umbraco:Item>
+			<umbraco:Macro Alias="NewsListHomePage" runat="server"></umbraco:Macro>
+		</div> <!-- /article -->
+		
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>iCalExport</Name>
+      <Alias>iCalExport</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gecko New Media/umbraco iCal Export//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:(GMT) Greenwich Mean Time . Dublin\, Edinburgh\, Lisbon\, London
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:VTIMEZONE
+<umbraco:Macro Alias="EventsIcalExportSingle" runat="server"></umbraco:Macro>END:VCALENDAR</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>iCalExportAll</Name>
+      <Alias>iCalExportAll</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/umbraco/masterpages/default.master" AutoEventWireup="true" %><asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gecko New Media/umbraco iCal Export//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:(GMT) Greenwich Mean Time . Dublin\, Edinburgh\, Lisbon\, London
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:VTIMEZONE
+<umbraco:Macro Alias="EventsIcalExportAll" runat="server"></umbraco:Macro>END:VCALENDAR</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Master</Name>
+      <Alias>Master</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title><umbraco:Item field="pageTitle" useIfEmpty="pageName" runat="server"></umbraco:Item></title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="<umbraco:Item field='metaDescription' runat='server'></umbraco:Item>" />
+	<meta name="keywords" content="<umbraco:Item field='metaKeywords' runat='server'></umbraco:Item>" />
+	
+	<link rel="stylesheet" type="text/css" href="/css/screen.css" media="all" />
+	
+	<script type="text/javascript" src="/scripts/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="/scripts/umbusiness.js"></script>
+</head>
+<body>
+	<div id="page_container">
+		
+		<div class="header">
+			<h1><umbraco:Item field="siteName" recursive="true" runat="server"></umbraco:Item></h1>
+			<p class="tagline"><umbraco:Item field="siteTagline" recursive="true" runat="server"></umbraco:Item></p>
+			<p class="contact"><umbraco:Item field="siteContactNumber" recursive="true" runat="server"></umbraco:Item></p>
+			
+			<form action="" class="site_search">
+				<fieldset class="site_search">
+					<label for="search">Search</label>
+					<input type="text" name="search" id="search" />
+					<input type="submit" value="search" />
+				</fieldset>	
+			</form>
+			
+			<umbraco:Macro Alias="TopNavigation" runat="server"></umbraco:Macro>
+			
+		</div> <!-- /header -->
+		
+		
+		<asp:ContentPlaceHolder Id="childContent" runat="server">
+			<!-- Insert default "childContent" markup here -->
+		</asp:ContentPlaceHolder>
+
+		
+		<div class="clear"></div>
+	</div> <!-- /page_container -->
+	
+	<div id="page_footer">
+		<p class="footer_left">
+			&copy; 2009 <umbraco:Item field="siteName" recursive="true" runat="server"></umbraco:Item><umbraco:Item field="siteContactNumber" recursive="true" insertTextBefore=", tel: " runat="server"></umbraco:Item>
+		</p>
+		<p class="footer_right">
+			<umbraco:Item field="siteMainAddress" recursive="true" runat="server"></umbraco:Item>
+		</p>
+	</div>
+	
+</body>
+</html>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>News Area</Name>
+      <Alias>NewsArea</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/masterpages/Master.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="childContent" runat="server">
+		<div class="article">
+			<umbraco:Macro Alias="BreadcrumbNav" runat="server"></umbraco:Macro>
+			<h2><umbraco:Item field="pageHeading" useIfEmpty="pageTitle" runat="server"></umbraco:Item></h2>
+			<umbraco:Item field="pageContent" runat="server"></umbraco:Item>
+			<umbraco:Macro Alias="NewsList" runat="server"></umbraco:Macro>
+		</div> <!-- /article -->
+		
+		<div class="aside">
+			
+			<umbraco:Macro Alias="SubNav" runat="server"></umbraco:Macro>
+			
+		</div> <!-- aside -->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>News Item</Name>
+      <Alias>NewsItem</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/masterpages/Master.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="childContent" runat="server">
+		<div class="article">
+			<umbraco:Macro Alias="BreadcrumbNav" runat="server"></umbraco:Macro>
+			<h2><umbraco:Item field="pageHeading" useIfEmpty="pageTitle" runat="server"></umbraco:Item></h2>
+			<p class="news_date"><umbraco:Item field="newsDate" formatAsDate="true" runat="server"></umbraco:Item></p>
+			<umbraco:Macro Alias="NewsImage" runat="server"></umbraco:Macro>
+			<umbraco:Item field="pageContent" runat="server"></umbraco:Item>
+			
+		</div> <!-- /article -->
+		
+		<div class="aside">
+			
+			<umbraco:Macro Alias="SubNav" runat="server"></umbraco:Macro>
+			
+		</div> <!-- aside -->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Textpage</Name>
+      <Alias>Textpage</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="/masterpages/Master.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="childContent" runat="server">
+		<div class="article">
+			<umbraco:Macro Alias="BreadcrumbNav" runat="server"></umbraco:Macro>
+			<h2><umbraco:Item field="pageHeading" useIfEmpty="pageTitle" runat="server"></umbraco:Item></h2>
+			<umbraco:Item field="pageContent" runat="server"></umbraco:Item>
+			
+		</div> <!-- /article -->
+		
+		<div class="aside">
+			
+			<umbraco:Macro Alias="SubNav" runat="server"></umbraco:Macro>
+			
+		</div> <!-- aside -->
+</asp:Content>]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets>
+    <Stylesheet>
+      <Name>screen</Name>
+      <FileName>screen</FileName>
+      <Content><![CDATA[/* -------------------------------------------------------------- 
+	
+	screen.css
+	Screen stylesheet
+	by geckonewmedia.com
+	
+	TOC
+	----------------------------------
+	1. =RESET
+	2. =BASE_TYPOGRAPHY
+	3. =BASE_STYLES
+-------------------------------------------------------------- */
+ 
+
+/* -------------------------------------------------------------- 
+	=RESET
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body { 
+	line-height: 1.5; 
+}
+
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+table, td, th { vertical-align: middle; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+a img { border: none; }
+
+/* -------------------------------------------------------------- 
+   =BASE
+-------------------------------------------------------------- */
+
+body {
+	background: #e5e5e5;
+	text-align: center;
+}
+
+div#page_container {
+	width: 960px;
+	text-align: left;
+	margin: 40px auto 0 auto;
+	background: white;
+	border: 1px solid #ccc;
+}
+
+
+div.article {
+	width: 730px;
+	padding: 15px;
+	float: left;
+}
+
+
+div.aside {
+	width: 200px;
+	padding: 0px;
+	float: left;
+}
+
+
+/* -------------------------------------------------------------- 
+	=HEADER & TOPNAV
+-------------------------------------------------------------- */
+
+div.header {
+	width: 100%;
+	position: relative;
+	height: 130px;
+}
+
+div.header form.site_search {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+div.header h1 {
+	font-size: 28px;
+	padding: 15px 15px 0 15px;
+        margin: 0;
+}
+
+div.header ul.nav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #e3e3e3;
+	list-style: none;
+	float: left;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+div.header ul.nav li {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+div.header ul.nav li a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+	padding: 5px 15px;
+	background: #e3e3e3;
+	border-right: 1px solid #ccc;
+	text-decoration: none;
+}
+
+div.header ul.nav li a:hover {
+	background: #d3d3d3;
+}
+
+div.header ul.nav li.current a {
+	background: #d3d3d3;
+}    
+
+blockquote {
+	background: #e4e4e4;
+	padding: 10px;
+	font-style: italic;
+	line-height: 1.3;
+	border: 1px solid #ccc;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0px;
+}
+
+p.tagline {
+    font-style: italic;
+    margin: 0 0 0 0;
+    padding: 0 0 0 15px;
+}
+
+p.contact  {
+    padding: 0 0 0 15px;
+    font-size: 11px;
+}
+
+/* -------------------------------------------------------------- 
+	=SIDEBAR/SUBNAV
+-------------------------------------------------------------- */
+
+ul.subnav,
+ul.subnav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.subnav li {
+	display: block;
+	position: relative;
+}
+
+ul.subnav li a {
+	display: block;
+	text-decoration: none;
+	position: relative;
+	background: #e3e3e3;
+	border-bottom: 1px solid white;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+
+ul.subnav li a:hover {
+	background: #d3d3d3;
+}
+
+ul.subnav li li a {
+	padding-left: 20px;
+	font-size: 11px;
+}
+
+
+
+/* -------------------------------------------------------------- 
+	=FOOTER
+-------------------------------------------------------------- */
+
+div#page_footer {
+    width: 960px;
+    margin: 0 auto 20px auto; 
+}
+
+div#page_footer p {
+    margin: 0;
+    padding: 10px 0 30px 0;
+}
+
+
+p.footer_left {
+    width: 480px;
+    float: left;
+    text-align: left;
+}
+
+
+p.footer_right {
+    width: 480px;
+    float: left;
+    text-align: right;
+}
+
+
+/* -------------------------------------------------------------- 
+	=TYPOGRAPHY
+-------------------------------------------------------------- */
+
+
+body {
+	font-family: arial, verdana;
+}
+
+
+h1, h2, h3, h4, h5, h6  {
+	font-family: georgia, 'Times New Roman', serif;
+	margin: 1em 0 0.5em 0;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 32px;  
+}
+
+h3 {
+	font-size: 26px;  
+}
+
+h4 {
+	font-size: 20px;  
+}
+
+h5 {
+	font-size: 18px;  
+}
+
+h6 {
+	font-weight: bold;
+}
+
+.article ul,
+.article ol {
+	margin: 1em 0;
+	padding-left: 2em;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+
+
+/* -------------------------------------------------------------- 
+   =FORMS
+-------------------------------------------------------------- */
+
+
+div.form fieldset {
+
+}
+
+ul.form_fields {
+	margin: 15px 0;
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+}
+
+ul.form_fields li {
+	margin: 0 0 5px 0;
+	padding: 0;
+	clear: both;
+}
+
+ul.form_fields li label {
+	display: block;
+	float: left;
+	width: 90px;
+	padding: 5px;
+}
+
+ul.block_labels li label {
+	float: none;
+	padding: 0 0 3px 0;
+	font-weight: bold;
+}
+
+
+ul.form_fields li label.indented_label {
+	padding-left: 105px;
+}
+
+
+ul.form_fields li label.wide_label {
+	width: 100%;
+}
+
+
+input[type=text],
+textarea {
+	border:1px solid #dadada;
+	border-top-color: #999;    
+	padding: 5px;
+}
+
+input[type=text]:focus,
+textarea:focus {
+	border:1px solid #999;
+	border-top-color: #555; 
+	background-color: #fdffeb;
+}
+
+input.input_long { width: 260px; }
+input.input_short { width: 80px }
+
+ul.form_fields li select {
+	padding: 2px;
+	border:1px solid #dadada;
+}
+
+
+/* -------------------------------------------------------------- 
+   =NEWS
+-------------------------------------------------------------- */
+
+ul.news_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #ccc;
+}
+
+ul.news_list li {
+    margin: 0 0 0 0;
+    padding: 15px 0;
+    list-style: none;
+    clear: both;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.news_list li.featured_news {
+    background: #f4f4f4;
+
+}
+
+div.news_image,
+div.main_news_image {
+    float: left;
+    width: 135px;
+}
+
+div.news_image img,
+div.main_news_image img {
+    width: 120px;
+    
+}
+
+div.news_content,
+div.main_news_item {
+    float: left;    
+    width: 595px;
+}
+
+ul.news_list h3 {
+    margin-top: 0px;
+}
+
+img.news_image {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+
+
+/* -------------------------------------------------------------- 
+   =EVENTS
+-------------------------------------------------------------- */
+
+div.event_main {
+    float: left;
+    width: 495px;
+    padding-right: 15px;
+}
+
+div.event_main h2 {
+    font-size: 22px;
+}
+
+div.event_nav {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    font-size: 11px;
+    padding: 3px 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+
+div.event_nav p {
+    font-size: 11px;
+    float: left;
+    margin: 0;
+}
+
+div.event_nav a.next_month {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+
+div.event_nav a.previous_month {
+    position: absolute;
+    right: 65px;
+    top: 4px;
+}
+
+div.event_sidebar {
+    width: 220px;
+    float: left;
+}
+
+div.event_sidebar h5 {
+    padding: 2px 0 2px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+h5 a.previous_month span, 
+h5  a.next_month span {
+    display:none;
+}
+
+h5 a.previous_month,
+h5 a.next_month  {
+    width: 9px;
+    display: block;
+    float: left;
+    height: 13px;
+    margin-right: 4px;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+h5 a.previous_month {
+    background-image: url(images/arrow_left.gif);
+}
+
+h5 a.next_month {
+    background-image: url(images/arrow_right.gif);
+}
+
+table.sm_calendar {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 220px;
+    font-size: 11px;
+}
+
+table.sm_calendar th,
+table.sm_calendar td {
+    padding: 2px;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    
+}
+
+table.sm_calendar td.eventDay {
+    background-color: #c6364a;
+    color: white;
+    font-weight: bold;
+    position: relative !important;
+    
+}
+
+div.events_today {
+    position: absolute;
+    background: #fff;
+    color: #000;
+    border: 1px solid #444;
+    z-index: 99999;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    display: none;
+}
+
+div.events_today h6 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    background: url(images/calendar-day.png) left center no-repeat;
+    padding:1px 0 1px 18px;
+}
+
+table.sm_calendar th {
+    font-weight: bold;
+}
+
+p.ical_export {
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+p.ical_export a {
+    background: url(images/calendar-day.png) left center no-repeat;
+    padding:1px 0 1px 18px;
+}
+
+ul.events_list {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.events_list li {
+    clear: both;
+    margin: 0;
+    padding: 15px 0 0 0;
+    float: left;
+    width: 100%;
+}
+
+ul.events_list li p.event_date_cal {
+    width: 40px;
+    margin: 0 15px 0 0;
+    text-align: center;
+    border: 1px solid #999;
+    float: left;
+
+    -moz-box-shadow: 0px 0px 3px #c1c1c1;
+}
+
+span.event_date_cal_day {
+    display: block;
+    background: #ccc;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+}
+
+span.event_date_cal_month {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul.events_list li h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+ul.events_list li p {
+    font-size: 12px;
+}
+
+
+
+/* -------------------------------------------------------------- 
+	=HOMEPAGE
+-------------------------------------------------------------- */
+
+div.homepage {
+    padding: 0 15px 15px 15px;
+}
+
+
+ul.home_news {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.home_news li {
+    clear: left;
+}
+
+ul.home_news li h3 {
+    font-size: 18px;
+    margin: 0 0 5px 0 ;
+}
+
+
+/* -------------------------------------------------------------- 
+   =MISC
+-------------------------------------------------------------- */
+
+div.clear {
+	clear: both;
+	height: 0px;
+	overflow:hidden;
+}
+
+.goright {
+	float: right;
+	margin-left: 10px;
+}
+
+.goleft {
+	float: left;
+	margin-right: 10px
+}
+
+
+
+
+
+]]></Content>
+    </Stylesheet>
+  </Stylesheets>
+  <Macros>
+    <macro>
+      <name>Breadcrumb Nav</name>
+      <alias>BreadcrumbNav</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>breadcrumbNav.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Calendar Back Link</name>
+      <alias>CalendarBackLink</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>calendarBackLink.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Event Area</name>
+      <alias>EventArea</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>eventArea.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Event Show Info</name>
+      <alias>EventShowInfo</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>eventShowInfo.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Events Ical Export All</name>
+      <alias>EventsIcalExportAll</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>eventsIcalExportAll.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Events Ical Export All Link</name>
+      <alias>EventsIcalExportAllLink</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>eventsIcalExportAllLink.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Events Ical Export Single</name>
+      <alias>EventsIcalExportSingle</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>eventsIcalExportSingle.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Events Ical Export Single Link</name>
+      <alias>EventsIcalExportSingleLink</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>eventsIcalExportSingleLink.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>News Image</name>
+      <alias>NewsImage</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>newsImage.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>News List</name>
+      <alias>NewsList</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>newsList.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>News List Home Page</name>
+      <alias>NewsListHomePage</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>newsListHomePage.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Sub Nav</name>
+      <alias>SubNav</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>SubNav.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+    <macro>
+      <name>Top Navigation</name>
+      <alias>TopNavigation</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>topNavigation.xslt</xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <properties />
+    </macro>
+  </Macros>
+  <DictionaryItems />
+  <Languages>
+    <Language Id="1" CultureAlias="en-US" FriendlyName="English (United States)" />
+  </Languages>
+  <DataTypes>
+    <DataType Name="Content Editor" Id="5e9b75ae-face-41c8-b47e-5f4b0fd82f83" Definition="a51e20e8-d5a5-4e2d-88a8-73d05f1c9856">
+      <PreValues>
+        <PreValue Id="9" Value=",code,removeformat,mcepasteword,stylepicker,bold,italic,bullist,numlist,mcelink,unlink,mceimage,umbracomacro,mceinserttable,subscript,superscript,mcecharmap,|1|1,2,3,|0|600,400||False|600|" />
+      </PreValues>
+    </DataType>
+  </DataTypes>
+</umbPackage>

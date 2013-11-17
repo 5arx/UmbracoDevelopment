@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="head" runat="server">
+	
+</asp:content>
+
+<asp:content ContentPlaceHolderId="ContentPlaceHolder1" runat="server">
+<!-- 9 colums to play with -->
+	<legend><umbraco:Item field="title" runat="server" /></legend>
+	<p class='lead'><umbraco:Item field="introText" runat="server" /></p>
+		<p><umbraco:Item field="bodyText" runat="server" /></p>
+	<asp:ContentPlaceholder runat="server" Id="Cph1BasePage" />
+</asp:content>

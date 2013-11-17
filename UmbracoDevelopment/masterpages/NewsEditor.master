@@ -1,0 +1,6 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/BasePage.master" AutoEventWireup="true" %>
+
+<asp:Content runat="server" ContentPlaceHolderId="Cph1BasePage" >
+	
+<umbraco:Macro Alias="NewsEditor" runat="server"></umbraco:Macro>	
+	</asp:Content>
